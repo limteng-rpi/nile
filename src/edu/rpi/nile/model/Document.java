@@ -32,6 +32,23 @@ public class Document {
         this.language = language;
     }
 
+    /* Mutators and accessors */
+    public void set_id(String id) {
+        this.id = id;
+    }
+
+    public void set_language(String language) {
+        this.language = language;
+    }
+
+    public String get_id() {
+        return id;
+    }
+
+    public String get_language() {
+        return language;
+    }
+
     /* Segment list operations */
     public void add_segment(Segment segment) {
         segment_list.add(segment);

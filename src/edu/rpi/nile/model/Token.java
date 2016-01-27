@@ -34,6 +34,7 @@ public class Token {
         this.start_char = start_char;
         this.end_char   = end_char;
         this.id         = id;
+        short_id = Integer.parseInt(id.substring(id.lastIndexOf('-') + 1));
     }
 
     /* Mutators and accessors*/
